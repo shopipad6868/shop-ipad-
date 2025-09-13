@@ -1,3 +1,68 @@
 # shop-ipad-
 máy zin chất lượng+ mua tặng kèm phụ kiện+ bảo hành dài hạn
 ipadshop_web.zip
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop iPad</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9fafc; }
+    header { background: linear-gradient(90deg, #ff5722, #ff9800); padding: 20px; text-align: center; color: white; font-size: 22px; font-weight: bold; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; padding: 20px; }
+    .card { background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; padding: 12px; transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 100%; border-radius: 8px; }
+    .card h3 { margin: 10px 0; font-size: 15px; color: #333; min-height: 40px; }
+    .price { color: #e91e63; font-weight: bold; margin: 6px 0; }
+    .btn { display: inline-block; padding: 8px 12px; background: linear-gradient(90deg, #ff5722, #ff9800); color: white; border-radius: 5px; text-decoration: none; font-size: 14px; }
+    .btn:hover { background: #e64a19; }
+    @media (min-width: 768px) {
+      .grid { grid-template-columns: repeat(4, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header>Shop iPad - Đầy đủ các dòng máy</header>
+  <div class="grid">
+
+    <!-- Các mẫu iPad -->
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+1"><h3>iPad Gen 1</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+2"><h3>iPad Gen 2</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+3"><h3>iPad Gen 3</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+4"><h3>iPad Gen 4</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+5"><h3>iPad Gen 5</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+6"><h3>iPad Gen 6</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+7"><h3>iPad Gen 7</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+8"><h3>iPad Gen 8</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+9"><h3>iPad Gen 9</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Gen+10"><h3>iPad Gen 10</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+
+    <!-- Mini -->
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Mini+1"><h3>iPad Mini 1</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Mini+2"><h3>iPad Mini 2</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Mini+3"><h3>iPad Mini 3</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Mini+4"><h3>iPad Mini 4</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Mini+5"><h3>iPad Mini 5</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Mini+6"><h3>iPad Mini 6</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+
+    <!-- Air -->
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Air+1"><h3>iPad Air 1</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Air+2"><h3>iPad Air 2</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Air+3"><h3>iPad Air 3</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Air+4"><h3>iPad Air 4</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Air+5"><h3>iPad Air 5</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Air+11"><h3>iPad Air 11 (2024)</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+
+    <!-- Pro -->
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Pro+9.7"><h3>iPad Pro 9.7</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Pro+10.5"><h3>iPad Pro 10.5</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Pro+11"><h3>iPad Pro 11</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Pro+12.9"><h3>iPad Pro 12.9</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Pro+M1"><h3>iPad Pro M1</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+    <div class="card"><img src="https://via.placeholder.com/200x140.png?text=iPad+Pro+M2"><h3>iPad Pro M2</h3><div class="price">Giá: </div><a href="#contact" class="btn">Đặt mua</a></div>
+
+  </div>
+</body>
+</html>
